@@ -1,13 +1,15 @@
 package cats;
 
+import java.util.InputMismatchException;
+
 public class Cat {
     protected String specificName = "Mèo";
     private String name;
 
-    public void setName(String name) throws Exception{
+    public void setName(String name) {
 
         if (name.trim().isEmpty()) {
-            throw new Exception("Không được đặt tên như thế này!");
+            throw new InputMismatchException("Không được đặt tên như thế này!");
         }
 
 

@@ -10,9 +10,8 @@ public class LongHairCat extends Cat {
         this.initSpecificName();
     }
 
-    public LongHairCat(String name) throws Exception{
+    public LongHairCat(String name) {
         this.initSpecificName();
         this.setName(name);
     }
 }
-

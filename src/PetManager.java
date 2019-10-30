@@ -2,7 +2,7 @@ import cats.Cat;
 import cats.LongHairCat;
 
 public class PetManager {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         LongHairCat nam = new LongHairCat("Nấm");
 
         System.out.println("Đây là " + nam.getSpecificName());
